@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.task-form{
+  display:block;
+}
+input{
+  width: 100%;
+}
+.task-button{
+  width: 100%;
+}
+.main-header{
+  margin-top: 20px;
+}
+.Card-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  margin: 1.25rem;
+}
+.card{
+  margin: auto 30px;
+}
+.list-group{
+  background-color: gainsboro;
+  color: black;
+}
+

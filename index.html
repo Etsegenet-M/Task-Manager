@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+          <link rel="stylesheet" href="css/style.css">
+
+    <title>Final Project</title>
+</head>
+
+<body>
+    <section class="form-section"> 
+<form id="newTaskForm">
+    <h1 class="main-header">Task List</h1></br>
+    <h3>New Task</h3>
+    <div class="row">
+        <div class="col">
+<div class="form-group">
+    <label for="newTaskNameInput">Name</label>
+    <input type="text" class="form-control" id="newTaskNameInput" name="newTaskName" required>  
+  </div></br>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea class="form-control" id="description" rows="6"></textarea>
+  </div></br>
+<div class="row">
+    <div class="col-6 assigned-to">
+        <label for="assignment">Assigned To</label>
+      <input type="text" class="form-control" id="assignment">
+    </div>
+    <div class="col">
+        <label for="due-date">Due Date</label>
+       <input type="date" class="form-control" id="due-date">
+    </div>
+  </div></br>
+  <div class="row">
+    <div class="col">
+        <button type="submit" class="btn btn-primary task-button" id="submitButton">Add Task</button>
+  </div>
+  </div></br>
+        </div>
+    </div>
+  <!-- <h1>Tasks</h1> -->
+</form> 
+</section>
+<div class="row">
+            <div class="col mb-4">
+                <h2>Tasks</h2>
+                <ul class="list-group " id="tasksList">
+                  <!-- removed the li element -->
+                  
+                </ul>
+            </div>
+            <div class="col"></div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="js/TaskManager.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
